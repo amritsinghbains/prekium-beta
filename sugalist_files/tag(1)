@@ -1,0 +1,84 @@
+BrightTag.instance.errors({enabled:false});
+BrightTag.instance.dbe('capped session', '\x27true\x27');
+BrightTag.instance.dbe('category name', '', {pageId:11599});
+BrightTag.instance.dbe('language', 'Etsy.EventLoggerEvents[0].attributes[\x27pref_language\x27].toUpperCase()', {pageId:12702});
+BrightTag.instance.dbe('null', '\x22\x22', {pageId:11599});
+BrightTag.instance.dbe('login status', '(!!document.getElementById(\x22sign-out\x22))', {pageId:11599});
+BrightTag.instance.dbe('country', '(function(){\r\n\tvar country \x3d \x22\x22;\r\n\tif(Etsy.EventLoggerEvents !\x3d null \x26\x26 typeof (Etsy.EventLoggerEvents) !\x3d\x3d \x22undefined\x22) {\r\n\t\tcountry \x3d Etsy.EventLoggerEvents[0].attributes[\x27detected_region\x27];\r\n\t}\r\n\treturn country;\r\n})();', {pageId:12702});
+BrightTag.instance.appendContent('\x3cscript type\x3d\x22text/javascript\x22 src\x3d\x22//www.googleadservices.com/pagead/conversion_async.js\x22\x3e\x3c/script\x3e\n      \x3cscript type\x3d\x22text/javascript\x22\x3e\n        (function () {\n          var google_tag_params \x3d {};\n          BrightTag.each([{key:"ecomm_prodid",value:bt_data(\x27product id\x27)},{key:"ecomm_pagetype",value:"home"},{key:"ecomm_totalvalue",value:bt_data(\x27order subtotal\x27)},{key:"ecomm_rec_prodid",value:bt_data(\x27null\x27)},{key:"ecomm_category",value:bt_data(\x27category name\x27)},{key:"ecomm_pvalue",value:bt_data(\x27product price\x27)},{key:"ecomm_quantity",value:bt_data(\x27cart count\x27)},{key:"a",value:bt_data(\x27null\x27)},{key:"g",value:bt_data(\x27gender\x27)},{key:"hasaccount",value:bt_data(\x27login status\x27)},{key:"cqs",value:bt_data(\x27null\x27)},{key:"rp",value:bt_data(\x27user purchase history\x27)},{key:"ly",value:bt_data(\x27null\x27)},{key:"hs",value:bt_data(\x27null\x27)}], function(prop) {\n            var val \x3d prop.value;\n            try { val \x3d JSON.parse(prop.value); } catch (e) {}\n            google_tag_params[prop.key] \x3d val;\n          });\n          window.google_trackConversion({\n              google_conversion_id: parseInt("1062314128"),\n              google_conversion_label: "LpFfCMyopQIQkMHG-gM",\n              google_custom_params: google_tag_params,\n              google_remarketing_only: true\n          });\n        })();\n      \x3c/script\x3e',{tagId:53036});
+BrightTag.instance.appendContent('\x3cscript type\x3d\x22text/javascript\x22 src\x3d\x22//www.googleadservices.com/pagead/conversion_async.js\x22\x3e\x3c/script\x3e\n      \x3cscript type\x3d\x22text/javascript\x22\x3e\n        (function () {\n          var google_tag_params \x3d {};\n          BrightTag.each([], function(prop) {\n            var val \x3d prop.value;\n            try { val \x3d JSON.parse(prop.value); } catch (e) {}\n            google_tag_params[prop.key] \x3d val;\n          });\n          window.google_trackConversion({\n              google_conversion_id: parseInt("987187918"),\n              google_conversion_label: "popJCLKB1AQQzpXd1gM",\n              google_custom_params: google_tag_params,\n              google_remarketing_only: true\n          });\n        })();\n      \x3c/script\x3e',{tagId:62461});
+BrightTag.instance.secondary(function(serverURL) {
+try { if (eval('bt_data(\x27country\x27)\x3d\x3d\x22DE\x22 || bt_data(\x27country\x27)\x3d\x3d\x22AT\x22 || bt_data(\x27country\x27)\x3d\x3d\x22CH\x22')) {
+serverURL.cf(19955);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27country\x27)\x3d\x3d\x22AU\x22 \x26\x26 bt_data(\x27capped session\x27) !\x3d \x22true\x22')) {
+serverURL.cf(19972);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27country\x27)\x3d\x3d\x22CA\x22 \x26\x26 bt_data(\x27capped session\x27) !\x3d \x22true\x22')) {
+serverURL.cf(19982);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27country\x27)\x3d\x3d\x22GB\x22 \x26\x26 bt_data(\x27capped session\x27) !\x3d \x22true\x22')) {
+serverURL.cf(19986);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27country\x27)\x3d\x3d\x22NL\x22 || bt_data(\x27country\x27)\x3d\x3d\x22BE\x22')) {
+serverURL.cf(20000);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27country\x27)\x3d\x3d\x22US\x22')) {
+serverURL.cf(20054);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27country\x27)\x3d\x3d\x22GB\x22')) {
+serverURL.cf(20100);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27country\x27)\x3d\x3d\x22CA\x22')) {
+serverURL.cf(20101);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27country\x27)\x3d\x3d\x22AU\x22')) {
+serverURL.cf(20102);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27country\x27)\x3d\x3d\x22US\x22')) {
+serverURL.cf(20823);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27country\x27)\x3d\x3d\x22FR\x22')) {
+serverURL.cf(23588);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27country\x27)\x3d\x3d\x22IT\x22')) {
+serverURL.cf(28352);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('(bt_data(\x27country\x27)\x3d\x3d\x22FI\x22 || bt_data(\x27country\x27)\x3d\x3d\x22SE\x22 || bt_data(\x27country\x27)\x3d\x3d\x22DK\x22 || bt_data(\x27country\x27)\x3d\x3d\x22NO\x22) \x26\x26 bt_data(\x27capped session\x27) !\x3d \x22true\x22')) {
+serverURL.cf(28355);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27country\x27)\x3d\x3d\x22GB\x22')) {
+serverURL.cf(42345);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27country\x27)\x3d\x3d\x22FR\x22 \x26\x26 bt_data(\x27capped session\x27) !\x3d \x22true\x22')) {
+serverURL.cf(42693);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27country\x27)\x3d\x3d\x22NZ\x22 \x26\x26 bt_data(\x27capped session\x27) !\x3d \x22true\x22')) {
+serverURL.cf(42695);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('bt_data(\x27country\x27)\x3d\x3d\x22DE\x22 \x26\x26 bt_data(\x27capped session\x27) !\x3d \x22true\x22')) {
+serverURL.cf(42699);
+}
+} catch(e) { bt_handle_exception(e); }
+try { if (eval('(bt_data(\x27country\x27)\x3d\x3d\x22FR\x22 || bt_data(\x27country\x27)\x3d\x3d\x22DE\x22) \x26\x26 bt_data(\x27language\x27).indexOf(\x22EN-\x22)\x3e\x3d0 \x26\x26 bt_data(\x27capped session\x27) !\x3d \x22true\x22')) {
+serverURL.cf(46158);
+}
+} catch(e) { bt_handle_exception(e); }
+serverURL.appendData('capped session');
+});

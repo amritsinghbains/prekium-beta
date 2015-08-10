@@ -1,0 +1,5 @@
+Anant chooses Tshirt of size : small and colour : blue
+anant mittal ,chooses SweatShirt of size : xxl and colour : blue
+puser1 chooses Tshirt of size : large and colour : black
+
+
